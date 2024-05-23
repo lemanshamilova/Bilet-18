@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px;
+    div{
+        width: 200px;
+        h4{
+            font-size: 27px;
+            padding: 20px 0px;
+        }
+        p{
+            padding: 6px 0px;
+    color: rgb(100, 99, 99);
+
+        }
+
+    }
+}
+.lastBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+    color: rgb(100, 99, 99);
+
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+@media screen and (max-width: 991px){
+  .footer{
+    flex-wrap: wrap;
+  }
+  .lastBox{
+    flex-wrap: wrap;
+  }
+    
+   }

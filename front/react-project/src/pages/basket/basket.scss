@@ -1,0 +1,22 @@
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    span{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    button{
+        padding: 5px;
+        width: 60px;
+        border-radius: 10px;
+        background-color: orangered;
+        font-size: 30px;
+        color: white;
+        border: none;
+        box-shadow: 1px 1px 10px rgb(65, 63, 63);
+    }
+}

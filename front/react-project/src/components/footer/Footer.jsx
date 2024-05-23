@@ -8,7 +8,7 @@ import { IoHeartSharp } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <section>
+    <footer>
         <div className="container">
             <div className="footer">
                 <div>
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
         </div>
       
-    </section>
+    </footer>
   )
 }
 

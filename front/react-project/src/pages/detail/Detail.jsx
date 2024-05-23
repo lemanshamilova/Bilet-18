@@ -31,6 +31,7 @@ const Detail = () => {
             }
         </div>
     </div>
+    
   
 </section>
   )
